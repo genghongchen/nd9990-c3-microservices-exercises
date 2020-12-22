@@ -12,6 +12,7 @@ install:
 # Scripts to be run such as tests
 before_script:
   - echo "no tests"
+  - cd lesson-3-independent-releases/exercises/travis_env_var_exercise
 
 script:
   - docker --version # print the version for logging
